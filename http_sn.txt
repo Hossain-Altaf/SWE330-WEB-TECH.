@@ -1,0 +1,44 @@
+HTTP/HTTPS KEY TERMS GLOSSARY
+
+BASIC TERMS
+• HTTP - Unsecured web communication rules
+• HTTPS - HTTP with encryption (SSL/TLS)
+• URL - Web address (https://example.com)
+• Client - Your browser/app making requests
+• Server - Machine responding to requests
+
+REQUEST/RESPONSE
+• Request - Asks for data (GET /home)
+• Response - Server's reply (200 OK + data)
+• Headers - Metadata about the message
+• Body - Actual content being sent/received
+
+HTTP METHODS
+• GET - Retrieve data (safe, visible in URL)
+• POST - Submit data to create/update
+• PUT - Replace entire resource
+• DELETE - Remove data
+• HEAD - Get headers only
+
+STATUS CODES
+• 2xx - Success (200 OK, 201 Created)
+• 3xx - Redirects (301 Moved, 304 Not Modified)
+• 4xx - Client errors (404 Not Found)
+• 5xx - Server errors (500 Internal Error)
+
+SECURITY
+• SSL/TLS - Encryption protocols
+• Cookie - Small stored data file
+• Authentication - Login verification
+
+ADVANCED
+• Cache - Stores responses for speed
+• Multiplexing - Multiple requests at once
+• QUIC - HTTP/3's faster transport protocol
+
+EXAMPLE FLOW:
+1. Client sends GET /cats request
+2. Server responds 200 OK + cat pictures
+3. HTTPS keeps your cat browsing private
+
+Created: [Today's Date]
