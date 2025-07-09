@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>altaf's-Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav class="navbar container">
+      <div class="logo">Altaf <span>Hossain</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <!-- <li><a href="#contact">Contact</a></li> -->
+        <li><a href="#interests">Interests</a></li>
+      </ul>
+      <a href="#contact" class="btn contact-btn">Contact with Me</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="intro-text">
+          <h1>Hello, It's <span class="highlight">Altaf</span></h1>
+          <h2>I'm a <span class="highlight">SWE Student</span></h2>
+          <p>Currently I'm studying Software Engineering @SUST. I like to do code and enjoy bulding websites and apps. I also love photograpghy and to travel new places.</p>
+          <div class="social-icons">
+            <a href="https://github.com/Hussain-Altaf" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/altaf-hossain-3abb2125b/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/aal_taaf/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://x.com/al_taf13" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.facebook.com/wildaltaf13" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+          </div>
+          <div class="hero-buttons">
+            <a href="#" class="btn">Hire-me</a>
+            <a href="#" class="btn outlined">More-Links</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="profile2.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-img">
+        <img src="profile1.jpg" alt="About Mark" />
+      </div>
+      <div class="about-content">
+        <h2>About <span class="highlight">Me</span></h2>
+        <p>Software Engineering Student,Photographer,Traveler and Web-developer.</p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <h2>Services</h2>
+      <div class="service-cards">
+        <div class="card">
+          <i class="fab fa-figma"></i>
+          <h3>UI / UX Design</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-code"></i>
+          <h3>Frontend Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </div>
+        <div class="card">
+          <i class="fas fa-brackets-curly"></i>
+          <h3>Backend Development</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+        </div>
+      </div>
+    </section>
+
+        <!-- ...existing code... -->
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="projects-list">
+        <div class="project-card">
+          <h3>Snake-Game</h3>
+          <p>Simple snake game made by using cpp and SDL2</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Calculator</h3>
+          <p>A calculator app made by using Java</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Travel Assistant App</h3>
+          <p>An Android and Web app made by using Flutter</p>
+        </div>
+
+        <div class="project-card">
+          <h3>Tic-Tae-Toe Game</h3>
+          <p>Simple tic tac toe game made by using html,css and js</p>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>HTML &amp; CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C & C++</li>
+        <li>Flutter</li>
+        <li>Java</li>
+        <li>MS Office</li>
+        <!-- Add more skills as needed -->
+      </ul>
+    </section>
+
+    <section id="interests" class="interests">
+      <h2>Interests</h2>
+      <ul class="interests-list">
+        <li>Photography</li>
+        <li>Traveling</li>
+        <li>Music</li>
+        <li>Reading</li>
+        <li>Cinema</li>
+        <li>Riding</li>
+        <!-- Add more interests as needed -->
+      </ul>
+    </section>
+<!-- ...existing code... -->
+  </main>
+
+    <!-- ...existing code... -->
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Altaf Hossain. All rights reserved.</p>
+      <p>Made with <span style="color:#e25555;">&#10084;</span> | SWE Student @ SUST</p>
+    </div>
+  </footer>
+</body>
+</html>
+
+  <script>
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
+</body>
+</html>
