@@ -7,13 +7,13 @@
 
 body {
   font-family: 'Segoe UI', Arial, sans-serif;
-  background: #a4b9ce;
+  background: #bccee0;
   color: #222;
   line-height: 1.6;
 }
 
 header {
-  background: #fff;
+  background: #eff1f1;
   box-shadow: 0 2px 8px rgba(0,0,0,0.04);
   position: sticky;
   top: 0;
@@ -130,7 +130,7 @@ header {
 }
 
 .hero {
-  background: #e9ecef;
+  background: #edeadf;
   padding: 4rem 0;
 }
 
@@ -231,7 +231,7 @@ header {
 }
 
 .services {
-  background: #fff;
+  background: #b9c2b9;
   padding: 4rem 0;
 }
 
@@ -252,7 +252,7 @@ header {
 
 /* Projects Section */
 .projects {
-  background: #fff;
+  background: #d7d2e8;
   padding: 4rem 0;
 }
 
@@ -294,7 +294,7 @@ header {
 
 /* Skills Section */
 .skills {
-  background: #e9ecef;
+  background: #d4dbc4;
   padding: 4rem 0;
 }
 
@@ -326,7 +326,7 @@ header {
 
 /* Interests Section */
 .interests {
-  background: #fff;
+  background: #c2efd0;
   padding: 4rem 0;
 }
 
@@ -412,7 +412,7 @@ header {
 
 .footer {
   background: #222;
-  color: #fff;
+  color: #91968a;
   text-align: center;
   padding: 0.5rem 0;
   margin-top: 2rem;
