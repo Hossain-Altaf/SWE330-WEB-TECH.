@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -433,3 +433,4 @@ header {
   letter-spacing: 0.5px;
   display: inline;
 }
+
